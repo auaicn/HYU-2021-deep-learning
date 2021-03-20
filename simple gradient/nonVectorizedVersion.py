@@ -19,8 +19,8 @@ def main():
 	sampleDimension = 2
 	numberTrainingSamples = 1000
 	numberTestSamples = 100
-	numberIteration = 2000
-	learningRate :float = 0.01
+	numberIteration = 20
+	learningRate :float = 0.4
 
 	random.seed()
 
