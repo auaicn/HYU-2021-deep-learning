@@ -25,7 +25,7 @@ def main():
 	random.seed()
 
 	# Make Training Samples
-	print("Making Training Samples....")
+	print("Making {} Training Samples....".format(numberTrainingSamples))
 	x_training = np.zeros([numberTrainingSamples,sampleDimension])
 	y_training = np.zeros(numberTrainingSamples)
 	for i in range(numberTrainingSamples):
@@ -40,7 +40,7 @@ def main():
 
 
 	# Make Test Samples
-	print("Making Test Samples....")
+	print("Making {} Test Samples....".format(numberTestSamples))
 	x_test = np.zeros([numberTestSamples,sampleDimension])
 	y_test = np.zeros(numberTestSamples)
 	for i in range(numberTestSamples):
