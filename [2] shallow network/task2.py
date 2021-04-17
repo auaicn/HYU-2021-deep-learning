@@ -47,7 +47,7 @@ def main():
 	numberLayer = 2		# input layer not counted
 	numNodesOnLayer = np.zeros(numberLayer + 1,int)
 	numNodesOnLayer[0] = inputDimension # input layer
-	numNodesOnLayer[1] = 3
+	numNodesOnLayer[1] = 1
 	numNodesOnLayer[2] = 1
 
 	# hyper parameter 
@@ -128,7 +128,7 @@ def main():
 			print(W1)
 			print(" W[2] with shape {}".format(W2.shape))
 			print(W2)
-			
+
 			print("\nFinal B")
 			print(" B[1] with shape {}".format(B1.shape))
 			print(B1)
