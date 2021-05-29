@@ -5,7 +5,7 @@ from datetime import datetime
 # Treat Warning as Exception
 np.seterr(all='raise')
 
-EPSILON = 0.0001
+EPSILON = 0.00000001
 
 def sigmoid(z): #! Type Annotation only available on python3
 	return 1 / (1 + np.exp(-z))
@@ -39,7 +39,7 @@ def main():
 	inputDimension = 2	# dimension of each input vector
 
 	# Deep Model setting
-	numberLayer = 2		# input layer not counted
+	numberLayer = 1		# input layer not counted
 	numNodesOnLayer = np.zeros(numberLayer + 1,int)
 	numNodesOnLayer[0] = inputDimension # input layer
 	numNodesOnLayer[1] = 1
