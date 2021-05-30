@@ -10,6 +10,8 @@ same with task3 for previous `[2] shallow network` assignment
 `Hidden` 3-dim  
 `Output` 1-dim y ∈ {0,1}
 
+![Model Image](https://github.com/auaicn/HYU-2021-deep-learning/blob/main/images/%5B3%5D%20TF%20Model.png?raw=true)
+
 ```python
 model = tf.keras.Sequential([
     tf.keras.layers.Dense(units=3, activation='sigmoid', input_shape=(d,)),
